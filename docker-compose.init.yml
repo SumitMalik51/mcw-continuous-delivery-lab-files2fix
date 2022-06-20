@@ -3,7 +3,7 @@ version: "3.4"
 services:
   init:
     build: ./content-init
-    image: ghcr.io/SumitMalik51/fabrikam-init:main
+    image: ghcr.io/sumitmalik51/fabrikam-init:main
     depends_on:
       - mongo
     environment:
